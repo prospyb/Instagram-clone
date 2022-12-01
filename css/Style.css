@@ -16,8 +16,9 @@ font-family: poppins;
 
 .left-sidebar {
     width: 18%;
-    height: 100vh;
-    padding: 30px 15px;
+    padding: 30px 0 30px 30px;
+    background: #fff;
+    border-right: 1px solid #efefef;
 }
 
 .left-sidebar ul {
@@ -27,19 +28,26 @@ font-family: poppins;
 
 .left-sidebar li {
     list-style: none;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 
 .left-sidebar li a {
 color: #1c1e21;
 text-decoration: none;
-font-size: 1.1rem;
+font-size: 1rem;
 font-weight: 400;
+}
+
+.left-sidebar li a:hover {
+border: none;
+border-radius: 15px;
+padding: 5px 30px;
+background: #efefef56;
 }
 
 .left-sidebar ul li a i {
 margin-right: 10px;
-font-size: 1.1rem;
+font-size: 1.5rem;
 }
 
 .profile-picture img {
@@ -52,7 +60,6 @@ font-size: 1.1rem;
 
 .profile-picture a {
     display: flex;
-    align-items: center;
 }
 
 .main-bar {
@@ -64,8 +71,9 @@ font-size: 1.1rem;
     display: flex;
     margin-top: 30px;
     margin-left: 6rem;
-    border: 1px solid #80808071;
+    border: 1px solid #efefef;
     border-radius: 10px;
+    background: #fff;
   }
   
   .userCard {
@@ -90,10 +98,6 @@ font-size: 1.1rem;
     background-position: center;
   }
   
-  /* .userDetails {
-    margin-left: 0.6rem;
-  } */
-  
   .userDetails .username {
     font-size: 0.8rem;
     font-weight: 400;
@@ -103,9 +107,10 @@ font-size: 1.1rem;
     display: flex;
     margin-top: 30px;
     margin-left: 6rem;
-    border: 1px solid #80808071;
+    border: 1px solid #efefef;
     border-radius: 10px;
     height: auto;
+    background: #fff;
 }
 
 .insta-img img {
@@ -134,13 +139,6 @@ font-size: 1.1rem;
     width: 32px;
     height: 32px;
     border-radius: 50px;
-}
-
-
-.right-sidebar {
-    background-color: yellow;
-    width: 35%;
-    height: 150vh;
 }
 
 .insta-icon {
@@ -183,9 +181,70 @@ font-size: 1.5rem;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #efefef;
 }
 
 .post-input input {
 width: 85%;
 border: none;
+}
+
+.right-sidebar {
+    width: 35%;
+    height: 150vh;
+    padding: 50px 40px;
+}
+
+.profile-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.profile-account img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.profile-account-text p {
+    font-size: 0.9rem;
+}
+
+.profile-account-text p:nth-last-of-type(1) {
+    font-size: 0.8rem;
+    color: #8D949E;
+}
+
+.clickable a {
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 400;
+}
+
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.footer-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links ul li {
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    margin-left: -10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.footer-links ul li:nth-last-of-type(9) {
+    list-style: none;
 }
