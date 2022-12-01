@@ -56,19 +56,78 @@ font-size: 1.1rem;
 }
 
 .main-bar {
-    background: green;
     width: 47%;
     height: 150vh;
 }
+  
+.storiesWrapper {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 6rem;
+    border: 1px solid #80808071;
+    border-radius: 10px;
+  }
+  
+  .userCard {
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .imgWrapper img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+  
+  .imgWrapper {
+    padding: 5px;
+    background-image: url('..//images/instbg.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* .userDetails {
+    margin-left: 0.6rem;
+  } */
+  
+  .userDetails .username {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 
-/* .insta-post {
-    width: 473px;
-    height: 150vh;
-    background: blue;
-} */
+  /* .userDetails .userHandle {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #545454;
+  } */
+  
+  
+  @media screen and (max-width: 800px) {
+    .storiesWrapper {
+      display: none;
+    }
+  
+    .navbar {
+      display: none;
+    }
+  }
+  
+
+/* End Caleb */
 
 .right-sidebar {
     background-color: yellow;
     width: 35%;
     height: 150vh;
 }
+
+
+/* .insta-post {
+    width: 473px;
+    height: 150vh;
+    background: blue;
+} */
