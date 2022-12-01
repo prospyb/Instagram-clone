@@ -85,7 +85,7 @@ font-size: 1.1rem;
   
   .imgWrapper {
     padding: 5px;
-    background-image: url('..//images/instbg.png');
+    background-image: url('/images/instbg.png');
     background-size: cover;
     background-position: center;
   }
@@ -99,25 +99,43 @@ font-size: 1.1rem;
     font-weight: 400;
   }
 
-  /* .userDetails .userHandle {
-    font-size: 0.8rem;
-    font-weight: 800;
-    color: #545454;
-  } */
-  
-  
-  @media screen and (max-width: 800px) {
-    .storiesWrapper {
-      display: none;
-    }
-  
-    .navbar {
-      display: none;
-    }
-  }
-  
+.post-section {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 6rem;
+    border: 1px solid #80808071;
+    border-radius: 10px;
+    height: auto;
+}
 
-/* End Caleb */
+.insta-img img {
+    width: 100%;
+}
+
+.insta-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.insta-header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.insta-header-content p {
+    font-weight: 450;
+    font-size: 0.9rem;
+}
+
+.insta-header img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+
 
 .right-sidebar {
     background-color: yellow;
@@ -125,9 +143,49 @@ font-size: 1.1rem;
     height: 150vh;
 }
 
+.insta-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
-/* .insta-post {
-    width: 473px;
-    height: 150vh;
-    background: blue;
-} */
+.insta-icon-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.insta-icon-content i {
+font-size: 1.5rem;
+}
+
+.insta-icon i {
+    font-size: 1.5rem;
+}
+
+.likes p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.caption p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.post-time p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.post-input {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-input input {
+width: 85%;
+border: none;
+}
