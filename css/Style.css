@@ -217,10 +217,18 @@ border: none;
     color: #8D949E;
 }
 
+.suggest  {
+    color: #8D949E;
+}
+
 .clickable a {
     text-decoration: none;
     color: #0095f6;
     font-weight: 400;
+}
+
+.except a {
+    color: #000;
 }
 
 .account-wrapper {
@@ -233,18 +241,26 @@ border: none;
 .footer-links ul {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .footer-links ul li {
     margin: 0 10px;
+    color: #8D949E
 }
 
 .footer-links ul li a {
     margin-left: -10px;
     text-decoration: none;
     font-size: 0.8rem;
+    color: #8D949E;
 }
 
 .footer-links ul li:nth-last-of-type(9) {
     list-style: none;
+}
+
+.copyright p {
+    font-size: 0.8rem;
+    color: #8D949E;
 }
